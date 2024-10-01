@@ -1,27 +1,48 @@
-/* Centre Fixed Width Body */
 html {
-  background-color: burlywood;
+  font-family: "Sofia Sans", sans-serif;
+  background-color: rgb(190, 155, 101);
 }
 
 body {
-  border-radius: 30px;
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-  background-color: white;
-  width: 500px;
-  border: 10px solid black;
-  margin: 30px auto;
-  padding: 15px 25px;
-  height: 800px;
+  background: white;
+  width: 600px;
+  margin: 0 auto;
+  padding: 20px 50px;
+  text-align: center;
+  border-radius: 15px;
 }
 
-h1,
-h2 {
-  color: maroon;
-}
-a {
-  text-decoration: none;
+table {
+  margin: 0 auto;
+  border-collapse: collapse;
 }
 
-a:hover {
-  text-decoration: underline;
+td {
+  border: 2px solid black;
+  padding: 10px;
+}
+
+td > p {
+  font-size: 10px;
+}
+
+img {
+  width: 125px;
+  border-radius: 15px;
+  opacity: 1;
+  transition: opacity 0.5s;
+}
+
+img:hover {
+  opacity: 0.7;
+  border: 2px solid blue;
+  transition: opacity 0.5s;
+}
+
+#head {
+  border: 2px solid rgb(243, 148, 6);
+  margin-bottom: 30px;
+  padding: 20px;
+  background: rgb(190, 155, 101);
+  border-radius: 10px;
 }
