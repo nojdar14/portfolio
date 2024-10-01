@@ -1,0 +1,27 @@
+/* Centre Fixed Width Body */
+html {
+  background-color: burlywood;
+}
+
+body {
+  border-radius: 30px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  background-color: white;
+  width: 500px;
+  border: 10px solid black;
+  margin: 30px auto;
+  padding: 15px 25px;
+  height: 800px;
+}
+
+h1,
+h2 {
+  color: maroon;
+}
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
